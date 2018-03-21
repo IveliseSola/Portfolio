@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .header{
@@ -20,10 +21,21 @@
 }
 
 .welcome-text{
-  background-color: rgba(185, 198, 223, 0.349);
+  /* background-color: rgba(185, 198, 223, 0.349); */
   height: 30vh; 
   position: absolute;
-  bottom:0;
-  left: 0;
+  bottom:12%;
+  left: 2%;
 }
+
+.hello{
+    font-size: 70px;
+    color:rgb(245, 73, 43);
+}
+.presentation{
+    font-size: 30px;
+    color: rgba(72, 73, 73, 0.979);
+    margin-top: 80px;;
+}
+
 
