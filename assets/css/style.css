@@ -4,9 +4,11 @@
     box-sizing: border-box;
     font-family: 'Nanum Gothic', sans-serif;
 }
+/* rgba(0, 89, 255, 0.11) */
 
 .header{
-    background-color: rgba(185, 198, 223, 0.11);
+    /* background: linear-gradient(to right bottom, #A5DCEE, #4EBCE6); */
+    background: linear-gradient(to right bottom, rgba(196, 200, 201,0.2), rgba(77, 78, 78, 0.6));
     position: relative;
     height: 95vh;
     margin:1.5%;
@@ -16,7 +18,7 @@
     position: relative;
     height: 100vh;
     background-image: url(../images/workspace.jpg);
-    clip-path: polygon(0 0, 100% 0, 100% 90%, 21% 63%);
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 21% 63%);
     background-size: cover;
 }
 
@@ -34,7 +36,7 @@
 }
 .presentation{
     font-size: 30px;
-    color: rgba(72, 73, 73, 0.979);
+    color: rgb(25, 162, 204);
     margin-top: 80px;;
 }
 
