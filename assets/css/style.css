@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.header{
+    background-color: rgba(185, 198, 223, 0.11);
+    position: relative;
+    height: 95vh;
+    margin:1.5%;
+}
+
+.main{
+    position: relative;
+    height: 100vh;
+    background-image: url(../images/workspace.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 21% 63%);
+    background-size: cover;
+}
+
+.welcome-text{
+  background-color: rgba(185, 198, 223, 0.349);
+  height: 30vh; 
+  position: absolute;
+  bottom:0;
+  left: 0;
+}
+
