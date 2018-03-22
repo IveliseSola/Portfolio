@@ -4,11 +4,9 @@
     box-sizing: border-box;
     font-family: 'Nanum Gothic', sans-serif;
 }
-/* rgba(0, 89, 255, 0.11) */
 
 .header{
-    /* background: linear-gradient(to right bottom, #A5DCEE, #4EBCE6); */
-    background: linear-gradient(to right bottom, rgba(196, 200, 201,0.2), rgba(77, 78, 78, 0.6));
+    background: linear-gradient(to right bottom, rgba(244, 246, 247, 0.329),#343D39);
     position: relative;
     height: 95vh;
     margin:1.5%;
@@ -35,9 +33,9 @@
     color:rgb(245, 73, 43);
 }
 .presentation{
-    font-size: 30px;
-    color: rgb(25, 162, 204);
-    margin-top: 80px;;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;;
 }
 
 
