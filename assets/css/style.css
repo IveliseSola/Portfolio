@@ -35,4 +35,11 @@
     color: white;
 }
 
+.bio-section{
+    height: 100vh;
+}
+
+#photo-perfil{
+    height: 300px;
+}
 
