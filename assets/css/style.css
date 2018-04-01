@@ -1,3 +1,4 @@
+/* rgb(199, 197, 197); */
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +42,8 @@
 .titles{
     color:rgb(245, 73, 43);
     font-size:40px;
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    
 }
 
 .bio-section {
@@ -49,32 +51,31 @@
     margin:1.5%;
     /* background-color: rgb(218, 213, 213); */
     background-image: linear-gradient(to right top,  rgba(244, 246, 247, 0.01),#343D39);
-    padding: 15vh;
+    padding: 2vh;
 }
 
 .bio-container {
    position: relative; 
    height: 100%;
    width: 100%;
-   background-color:rgb(218, 213, 213);;
-   border: solid 10px rgba(255, 255, 255, 0.377);
+   background-color:white;
+   /* clip-path: polygon(0 0, 0% 100%, 100% 50%); */
+   /* border: solid 10px rgba(255, 255, 255, 0.377); */
 }
 
 #photo-perfil {
-   height:40%;
-   width: 20%;
+   /* clip-path: polygon(0% 0%, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+   height:100%;
+   width: 50%;
    display: inline-block;
    position: absolute;
-   right: 5px;
+   left: 0;
 }
 
-#bio {
+.bio {
     position: absolute;
     display: inline-block;
-    top:5px;
-    left:5px;
-    height: 80vh;
-    width: 50%;
+    right:0;
     text-align:justify;
     line-height: 1.6;
 }
