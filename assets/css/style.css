@@ -65,28 +65,30 @@
 
 #photo-perfil {
    /* clip-path: polygon(0% 0%, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
-   height:100%;
-   width: 50%;
+   height:50%;
+   width: 25%;
    display: inline-block;
-   position: absolute;
-   left: 0;
+   /* position: absolute;
+   left: 0; */
+   border-radius: 50%;
 }
 
-#bio,
-#bio1 {
+.bio-paragraph,
+.bio1-paragrapg {
     position: absolute;
     display: block;
     width: 40%;
     right:5%;
     text-align:justify;
     line-height: 1.6;
+    background-color: rgba(163, 162, 162, 0.315);
 }
 
-#bio{
+.bio-paragraph{
     top:10%;
 }
 
-#bio1{
+.bio1-paragrapg{
     bottom: 15%;
 
 }
