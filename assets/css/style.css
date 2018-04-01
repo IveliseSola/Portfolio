@@ -72,12 +72,23 @@
    left: 0;
 }
 
-.bio {
+#bio,
+#bio1 {
     position: absolute;
-    display: inline-block;
-    right:0;
+    display: block;
+    width: 40%;
+    right:5%;
     text-align:justify;
     line-height: 1.6;
+}
+
+#bio{
+    top:10%;
+}
+
+#bio1{
+    bottom: 15%;
+
 }
 
 
