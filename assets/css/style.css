@@ -6,13 +6,11 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-p{
-    color: #343D39;
-}
+p {color: #343D39;}
 
 .header{
     position: relative;
-    height: 95vh;
+    height: 100vh;
     margin:1.5% 1.5% 0 1.5%;
     background-size: cover;
     background-image: url(../images/workspace.jpg);
@@ -21,7 +19,7 @@ p{
 .welcome-text{
   background-image: linear-gradient(to right bottom,  rgba(244, 246, 247, 0.01),#343D39);
   opacity: 0.8;
-  height: 95vh;
+  height: 100vh;
   clip-path: polygon(0 0, 35% 68%, 100% 100%, 0 100%);
 }
 
@@ -43,22 +41,15 @@ p{
 
 /* Section Bio */
 
-.titles{
-    color:rgb(245, 73, 43);
-    font-size:40px;
-    margin-bottom: 0;
-    
-}
-
 .bio-section {
-    height: 95vh;
+    height: 100vh;
     margin: 0 1.5%;
-    background-color: rgb(218, 213, 213);
+    background-color: rgba(231, 228, 228, 0.993);
     /*background-image: linear-gradient(to right top,  rgba(244, 246, 247, 0.01),#343D39); */
 }
 
 .bio-container {
-   height: 95vh;
+   height: 100vh;
    margin: 0 1.5%;
    position: absolute; 
    display: inline-block;
@@ -77,6 +68,7 @@ p{
 #aboutMe{
     margin-left: 30%;
     margin-top: 10%;
+    font-size: 40px;
     color: #343D39;
 
 }
@@ -87,6 +79,7 @@ p{
     line-height: 1.6;
     width: 65%;
     margin-left: 25%;
+    font-size:110%;
 }
 
 #bioP1{
