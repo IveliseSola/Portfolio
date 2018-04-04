@@ -6,10 +6,14 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+p{
+    color: #343D39;
+}
+
 .header{
     position: relative;
     height: 95vh;
-    margin:1.5%;
+    margin:1.5% 1.5% 0 1.5%;
     background-size: cover;
     background-image: url(../images/workspace.jpg);
 }
@@ -48,50 +52,47 @@
 
 .bio-section {
     height: 95vh;
-    margin:1.5%;
-    /* background-color: rgb(218, 213, 213); */
-    background-image: linear-gradient(to right top,  rgba(244, 246, 247, 0.01),#343D39);
-    padding: 2vh;
+    margin: 0 1.5%;
+    background-color: rgb(218, 213, 213);
+    /*background-image: linear-gradient(to right top,  rgba(244, 246, 247, 0.01),#343D39); */
 }
 
 .bio-container {
-   position: relative; 
-   height: 100%;
-   width: 100%;
-   background-color:white;
-   /* clip-path: polygon(0 0, 0% 100%, 100% 50%); */
-   /* border: solid 10px rgba(255, 255, 255, 0.377); */
+   height: 95vh;
+   margin: 0 1.5%;
+   position: absolute; 
+   display: inline-block;
+   background-color: rgba(199, 197, 197, 0.171);
+   clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 #photo-perfil {
-   /* clip-path: polygon(0% 0%, 100% 0, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
    height:50%;
-   width: 25%;
-   display: inline-block;
-   /* position: absolute;
-   left: 0; */
+   width: 27%;
+   margin-top: 15%;
+   margin-left: 4%;
    border-radius: 50%;
 }
 
-.bio-paragraph,
-.bio1-paragrapg {
-    position: absolute;
-    display: block;
-    width: 40%;
-    right:5%;
+#aboutMe{
+    margin-left: 30%;
+    margin-top: 10%;
+    color: #343D39;
+
+}
+
+#bioP1,
+#bioP2{
     text-align:justify;
     line-height: 1.6;
-    background-color: rgba(163, 162, 162, 0.315);
+    width: 65%;
+    margin-left: 25%;
 }
 
-.bio-paragraph{
-    top:10%;
+#bioP1{
+    margin-top: 7%;
 }
 
-.bio1-paragrapg{
-    bottom: 15%;
-
+#bioP2{
+    margin-top: 5%;
 }
-
-
-
