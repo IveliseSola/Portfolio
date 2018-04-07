@@ -6,6 +6,11 @@
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+section{
+    height: 100vh;
+    margin: 0 1.5%;
+}
+
 p {color: #343D39;}
 
 .header{
@@ -93,5 +98,5 @@ p {color: #343D39;}
 /* Section Projects */
 
 .section-projects{
-    background-color: #343D39;
+    background-image: linear-gradient(to left bottom,  rgba(244, 246, 247, 0.01),#343D39);
 }
