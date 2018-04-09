@@ -104,4 +104,6 @@ p {color: #343D39;}
 .projects{
 display: inline-block;
 width: 20%;
+height: 60%;
+background-color: rgba(244, 246, 247, 0.01);
 }
